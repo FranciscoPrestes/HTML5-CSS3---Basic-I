@@ -1,5 +1,6 @@
 body {
-  font-family: "Crimson Text", "Times New Roman", serif;
+    font-family: "Crimson Text","Times New Roman",serif;
+    font-size: 120%;
 }
 
 h1,h2 {
@@ -12,6 +13,15 @@ main h1 {
     color: #FFF;
 }
 
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
 p {
     text-align: justify;
 }
@@ -22,9 +32,22 @@ blockquote{
     
 }
 
-nav{
+aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+}
+
+nav a{
+    color: #F2FFFC;
+}
+
+ul {
+  color: pink;
+}
+ul li a {
+    color: inherit;
+    font-family: "Open Sans Condensed",sans-serif;
+    text-decoration: none;
 }
 
 footer{
