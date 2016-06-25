@@ -15,3 +15,19 @@ main h1 {
 p {
     text-align: justify;
 }
+
+
+blockquote{
+    background-color: #D9E5E3;
+    
+}
+
+nav{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer{
+    background-color: black;
+    color: #F2FFFC;
+}
