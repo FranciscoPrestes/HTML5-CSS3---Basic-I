@@ -10,13 +10,8 @@ h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-.citacao-bio {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    padding: 20px;
-    margin: 20px 40px;
-    width: 250px;
-    box-sizing: border-box;
+h1 {
+    text-transform: uppercase;
 }
 
 .titulo-principal {
@@ -26,11 +21,11 @@ h2 {
     color: #FFF;
     padding: 25px;
     border-bottom: 10px solid #000;
-    text-transform: uppercase;
 }
 
 .subtitulo-texto {
     font-size: 30px;
+    clear: both;
 }
 
 main a {
@@ -64,6 +59,15 @@ p {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(../imagens/eu-ico-small.png);
+    background-position: 99% center;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -88,33 +92,44 @@ em {
 .icones-redes-sociais a {
     width: 40px;
     height: 40px;
-    display: inline-block;
-    text-indent: -9999px; 
-}
-
-.github
-{
-    background-image: url("../img/github.png");
-}
-.twitter{
-    background-image: url("../img/twitter.png")
-}
-
-.linkedin{
-    background-image: url("../img/linkedin.png")
-}
-
-
-
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
     display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
+    text-indent: -99999px;
 }
 
-.test{
-    background-color: beige;
+.github {
+    background-image: url(../imagens/github.png);
+}
+
+.twitter {
+    background-image: url(../imagens/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../imagens/linkedin.png);
+}
+
+main {
+    width: 80%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.minha-foto,
+.navegacao-site {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+.navegacao-site {
+    width: 20%;
+    float: right;
+    position: relative;
+    top: 310px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
